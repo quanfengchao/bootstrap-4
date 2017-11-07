@@ -1,0 +1,31 @@
+body{
+    background: #eee;
+}
+.container.layout {
+    color: white;
+    -webkit-font-smoothing: antialiased; /*防锯齿*/
+}
+
+.container.layout .row {
+   border-bottom: 1px solid #ddd;
+    min-height:8vh;
+}
+
+.container.layout  span {
+    display: block;
+    background: #007bff;
+    color: white;
+    font-size: 24px;
+    padding: 8px;
+    height: 5vh;
+}
+
+.carousel.demo .carousel-item{
+    height: 300px;
+}
+
+.carousel.demo .carousel-item img{
+    min-height: 300px;
+    max-height: 400px;
+    object-fit: cover;
+}
